@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <section class="space-section flex items-center justify-center h-[100vh] w-[100vw] bg-red-200">
+    <h1 class="text-[10rem] font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-transparent bg-clip-text animate-[gradient_3s_ease-in-out_infinite] bg-size-200">Empty Space</h1>
+  </section>
+  <section>
+    <div class="w-full bg-blue-200 p-24">
+      <div id="video-container" class="w-[40vw] rounded-[20px] overflow-hidden h-[40vh] relative video-container">
+        <canvas>
+        </canvas>
+      </div>
+    </div>
+  </section>
+  <div class="w-full h-screen bg-blue-500"></div>
+
+  <script type="module" src="/js/video-shader.js"></script>
+  <script type="module" src="/js/LenisSmoothScroll.js"></script>
+  <script type="module" src="/js/index.js"></script>
+</body>
+</html>
